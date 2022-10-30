@@ -1,0 +1,38 @@
+.hide {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.image2 {
+    display:none;
+}
+
+#calculator {
+    width:300px
+}
+
+#calculator button {
+    font-size: 18px;
+}
+
+#display{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px
+}
+
+.equals {
+    background: orange;
+    border: 2px solid darkorange;
+}
+
